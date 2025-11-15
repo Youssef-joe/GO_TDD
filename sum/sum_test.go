@@ -38,7 +38,8 @@ func TestSumAll(t *testing.T) {
 func TestSumAllNails(t *testing.T) {
 
 	// here i'm assigning a function inside a variable; seems like JS and closure ?
-	// this technique can be useful when you want to bind a function to other local variables in "scope"
+	// this technique can be useful when you
+	//  want to bind a function to other local variables in "scope"
 	helperMsg := func(t testing.TB, got, want []int) {
 		t.Helper()
 		if !reflect.DeepEqual(got, want) {
