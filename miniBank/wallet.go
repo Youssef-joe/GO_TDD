@@ -1,3 +1,3 @@
 package wallet 
 
-func wallet () {}
+
